@@ -16,17 +16,17 @@ function SubscriptionTracker() {
               <h1>Keep track of all usage</h1>
               <p>Tracking All Usages for Efficient Management and Comprehensive Oversight.</p>
 
-              <div className="features">
+              <div className="features-1">
                 <div className="feature">
-                  <img src={Bolt} alt="Comprehensive Usage Monitoring" />
+                  <img height={22} src={Bolt} alt="Comprehensive Usage Monitoring" />
                   <span>Comprehensive Usage Monitoring</span>
                 </div>
                 <div className="feature">
-                  <img src={Compare} alt="Efficient Management" />
+                  <img height={22} src={Compare} alt="Efficient Management" />
                   <span>Efficient Management</span>
                 </div>
                 <div className="feature">
-                  <img src={Paper} alt="Enhanced Oversight" />
+                  <img height={22} src={Paper} alt="Enhanced Oversight" />
                   <span>Enhanced Oversight</span>
                 </div>
               </div>
