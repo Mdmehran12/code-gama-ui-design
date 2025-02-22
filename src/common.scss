@@ -1,37 +1,37 @@
-.container{
-    max-width: 1470px;
-    width: 100%;
+.container {
+  max-width: 1470px;
+  width: 100%;
 }
 
-.btn{
-    border-radius: 4px;
-    font-weight: 500;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border: none;
-    font-size: 1rem;
-    border-radius: 8px;
-    position: relative;
+.btn {
+  border-radius: 4px;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  position: relative;
 }
 
 
 /* width */
 ::-webkit-scrollbar {
-    width: 4px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: black; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: white; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: black; 
-  }
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
