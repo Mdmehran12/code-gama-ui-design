@@ -2,7 +2,7 @@ import Netflix from '../assets/images/Item-5.png';
 import Disney from '../assets/images/Item4.png';
 import Airbnb from '../assets/images/item-2.png';
 import Microsoft from '../assets/images/item-3.png';
-import Duolingo from '../assets/images/item-1.png';
+import Duolingo from '../assets/images/Item-1.png';
 import dashboardimg from "../assets/images/main-dashboard.png"
 
 import "./index.scss"
