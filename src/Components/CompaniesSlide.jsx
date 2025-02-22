@@ -3,9 +3,7 @@ import Disney from '../assets/images/Item4.png';
 import Airbnb from '../assets/images/Item-2.png';
 import Microsoft from '../assets/images/Item-3.png';
 import Duolingo from '../assets/images/Item-1.png';
-import dashboardimg from "../assets/images/main-dashboard.png"
-
-import "./index.scss"
+import "./ManageDashboard.scss"
 
 const CompaniesSlide = () => {
 
@@ -34,9 +32,6 @@ const CompaniesSlide = () => {
     ];
     return (
         <>
-            <div className="hero-img">
-                <div className="hero-img-container">
-                    <img src={dashboardimg} alt="" /></div></div>
             <div className="container-slider">
                 <div className="logo-slider">
                     <div className="logo-track">

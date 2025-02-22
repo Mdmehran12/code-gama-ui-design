@@ -14,8 +14,8 @@ function App() {
       <Navbar>
         <Home />
       </Navbar>
-      <CompaniesSlide />
       <ManageDashboard />
+      <CompaniesSlide />
       <SubscriptionTracker />
     </>
   )

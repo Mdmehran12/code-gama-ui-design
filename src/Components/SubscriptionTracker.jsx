@@ -4,7 +4,7 @@ import Bolt from '../assets/images/offline-bolt.svg';
 import Paper from '../assets/images/paper.svg';
 import Compare from '../assets/images/compare.svg';
 import ArrowRight from '../assets/images/arrow-right.svg';
-import ManageDashboard from '../assets/images/manage-dashboard.png';
+import ManageDashboard from '../assets/images/manage-dashboard-2.png';
 
 function SubscriptionTracker() {
   return (
