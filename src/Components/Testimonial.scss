@@ -1,0 +1,51 @@
+.testimonials-container-main {
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin-block: 10rem;
+    margin-inline: 2rem;
+
+    .testimonials-container {
+        display: flex;
+        gap: 2rem;
+        padding: 2rem;
+        background: black;
+        color: white;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        margin-inline: auto;
+
+        .testimonial {
+            flex: 0 0 300px;
+            padding: 2rem;
+            border-left: 2px solid rgba(255, 255, 255, 0.2);
+            scroll-snap-align: start;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 3rem;
+
+            .text {
+                font-size: 1rem;
+            }
+
+            .name {
+                font-size: 1.1rem;
+                font-weight: bold;
+                color: gray;
+                margin-top: 0.5rem;
+            }
+
+            .title {
+                font-size: 0.9rem;
+                color: gray;
+            }
+        }
+    }
+
+    @media (min-width: 769px) {
+        .testimonials-container {
+            justify-content: space-between;
+            overflow: hidden;
+        }
+    }
+}

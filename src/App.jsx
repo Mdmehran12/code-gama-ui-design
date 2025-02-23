@@ -12,6 +12,7 @@ import PointOfView from './Components/PointOfView'
 
 // import Home from './Components/Home'
 import Navbar from './Layout/Navbar'
+import TestimonialCarousel from './Components/Testimonial'
 function App() {
 
   return (
@@ -26,6 +27,8 @@ function App() {
       <AdvanceFeatures />
       <TrackFeature />
       <PointOfView />
+      <CompaniesSlide />
+      <TestimonialCarousel />
     </>
   )
 }

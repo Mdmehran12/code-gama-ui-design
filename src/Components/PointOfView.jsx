@@ -40,9 +40,9 @@ function App() {
             {/* Content area for the selected view */}
             <div className="content">
                 {activeTab === 'creator' ? (
-                    <img src={LapBanner} alt="LapBanner" />
+                    <img src={LapBanner} className='povImage' alt="LapBanner" />
                 ) : (
-                    <img src={LapBanner} alt="LapBanner" />
+                    <img src={LapBanner} className='povImage' alt="LapBanner" />
                 )}
             </div>
             {/* <img src={BottomDimondGrid} alt="BottomDimondGrid" /> */}
