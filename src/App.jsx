@@ -7,6 +7,7 @@ import Home from './Components/Home'
 import ManageDashboard from './Components/ManageDashboard'
 import SubscriptionTracker from './Components/SubscriptionTracker'
 import AdvanceFeatures from './Components/AdvanceFeatures'
+import TrackFeature from './Components/TrackFeature'
 
 // import Home from './Components/Home'
 import Navbar from './Layout/Navbar'
@@ -22,6 +23,7 @@ function App() {
       <SubscriptionTracker />
       <Featured />
       <AdvanceFeatures />
+      <TrackFeature />
     </>
   )
 }
