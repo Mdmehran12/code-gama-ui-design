@@ -8,6 +8,7 @@ import ManageDashboard from './Components/ManageDashboard'
 import SubscriptionTracker from './Components/SubscriptionTracker'
 import AdvanceFeatures from './Components/AdvanceFeatures'
 import TrackFeature from './Components/TrackFeature'
+import PointOfView from './Components/PointOfView'
 
 // import Home from './Components/Home'
 import Navbar from './Layout/Navbar'
@@ -24,6 +25,7 @@ function App() {
       <Featured />
       <AdvanceFeatures />
       <TrackFeature />
+      <PointOfView />
     </>
   )
 }
