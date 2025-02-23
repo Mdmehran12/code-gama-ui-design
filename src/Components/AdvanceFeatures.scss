@@ -1,0 +1,88 @@
+// Variables
+$bg-dark: #000000;
+$text-light: #ffffff;
+$accent-green: #00ff9d;
+
+.AdvanceFeatures {
+    max-width: 100vw;
+    margin: auto;
+    color: $text-light;
+
+    .advance-feature-img {
+        max-width: 100%;
+        margin-top: 2rem;
+        margin-inline: auto;
+        display: block;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-areas: "notifi ai"
+            "encrypt ai";
+
+        @media (max-width: 768px) {
+            grid-template-areas:
+                "notifi"
+                "ai"
+                "encrypt";
+        }
+
+        margin-top: 2rem;
+        margin-inline: auto;
+        max-width: 1000px;
+    }
+
+    .feature-card {
+        grid-area: notifi;
+        padding: 2rem;
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: rgba($text-light, 0.8);
+            line-height: 1.6;
+        }
+    }
+
+    // Notification styles
+    .notification-img {
+        max-width: 400px;
+    }
+
+    // AI optimization section
+    .ai-optimization {
+        grid-area: ai;
+        border-style: dotted;
+        border-width: 0;
+        border-left-width: 3px;
+        border-image:
+            linear-gradient(to bottom,
+                white,
+                rgba(0, 0, 0, 0)) 1 100%;
+
+        @media (max-width: 768px) {
+            border: none;
+        }
+
+        img {
+            margin-top: 3rem;
+        }
+    }
+
+    // Encrypted section
+    .encrypted-section {
+        grid-area: encrypt;
+        border-style: dotted;
+        border-width: 0;
+        border-top-width: 3px;
+        border-image-source: linear-gradient(to left, white, rgba(0, 0, 0, 0));
+        border-image-slice: 1;
+
+        @media (max-width: 768px) {
+            border: none;
+        }
+    }
+}

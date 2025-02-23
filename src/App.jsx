@@ -6,6 +6,8 @@ import Featured from './Components/Featured'
 import Home from './Components/Home'
 import ManageDashboard from './Components/ManageDashboard'
 import SubscriptionTracker from './Components/SubscriptionTracker'
+import AdvanceFeatures from './Components/AdvanceFeatures'
+
 // import Home from './Components/Home'
 import Navbar from './Layout/Navbar'
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <CompaniesSlide />
       <SubscriptionTracker />
       <Featured />
+      <AdvanceFeatures />
     </>
   )
 }
