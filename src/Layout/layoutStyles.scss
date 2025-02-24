@@ -76,13 +76,19 @@ nav.sticky .nav-links li a:hover {
 }
 
 // hero section codes starts from here
+.container-hero {
+  display: block;
+  margin-inline: auto;
+}
 
 .hero-section-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  //   height: 100vh;
-  padding: 150px 10px 10px 10px;
+  align-items: center;
+  margin-inline: center;
+  height: 100vh;
+  padding: 3rem 10px 10px 10px;
 
   .banner {
     display: flex;

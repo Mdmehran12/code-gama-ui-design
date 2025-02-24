@@ -21,7 +21,7 @@ const Navbar = ({ children }) => {
 
     return (
         <div className="home">
-            <div className="container">
+            <div className="container-hero">
                 <nav ref={navRef}>
                     <div className="nav-content">
                         <div className="logo">

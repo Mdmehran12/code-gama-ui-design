@@ -14,7 +14,6 @@ import PointOfView from './Components/PointOfView'
 import Navbar from './Layout/Navbar'
 import TestimonialCarousel from './Components/Testimonial'
 function App() {
-
   return (
     <>
       <Navbar>
