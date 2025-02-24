@@ -14,6 +14,7 @@ import PointOfView from './Components/PointOfView'
 import Navbar from './Layout/Navbar'
 import TestimonialCarousel from './Components/Testimonial'
 import ComparisonTable from './Components/ComparisonTable'
+import BlogSuggestion from './Components/BlogSuggestion'
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
       <CompaniesSlide />
       <TestimonialCarousel />
       <ComparisonTable />
+      <BlogSuggestion />
     </>
   )
 }

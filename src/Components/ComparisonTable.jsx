@@ -30,21 +30,20 @@ function ComparisonTable() {
                     </div>
                     <div className="love-tickers">
                         <h3>
-                            4.6
-                        </h3>
-                        <span>
-                            GOOGLE PLAY RATING
-                        </span>
-                    </div>
-                    <div className="love-tickers">
-                        <h3>
                             100cr+
                         </h3>
                         <span>
                             TRANSATION VOLUME
                         </span>
                     </div>
-
+                    <div className="love-tickers">
+                        <h3>
+                            4.6
+                        </h3>
+                        <span>
+                            GOOGLE PLAY RATING
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
