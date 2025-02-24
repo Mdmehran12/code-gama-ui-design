@@ -1,0 +1,110 @@
+$green-glow: #00ff00;
+$dark-green: #003300;
+$background: #000000;
+
+.comparison-container {
+    min-height: 100vh;
+    background-color: $background;
+    padding: 4rem 2rem;
+    color: white;
+    font-family: system-ui, -apple-system, sans-serif;
+
+    .title {
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: 600;
+        margin-bottom: 4rem;
+    }
+
+    .table-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background: rgba(0, 51, 0, 0.3);
+        border-radius: 24px;
+        padding: 2rem;
+        position: relative;
+        overflow: hidden;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at center,
+                    rgba($green-glow, 0.1) 0%,
+                    rgba($green-glow, 0) 70%);
+            z-index: 0;
+        }
+    }
+
+    .comparison-table {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 8px;
+
+        th,
+        td {
+            padding: 1rem;
+            text-align: left;
+        }
+
+        th {
+            font-weight: 500;
+            color: #ffffff;
+
+            &.product-header {
+                text-align: center;
+
+                img {
+                    height: 24px;
+                    margin-left: 8px;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        .feature-row {
+            td {
+                background: rgba(0, 51, 0, 0.2);
+
+                &:first-child {
+                    border-radius: 8px 0 0 8px;
+                }
+
+                &:last-child {
+                    border-radius: 0 8px 8px 0;
+                }
+            }
+        }
+    }
+}
+
+.check-icon {
+    color: $green-glow;
+    filter: drop-shadow(0 0 8px rgba($green-glow, 0.5));
+}
+
+.x-icon {
+    color: #666;
+}
+
+.line-effect {
+    position: relative;
+
+    &:nth-child(2):after {
+        content: '';
+        position: absolute;
+        top: -0px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        width: 30px;
+        background: $green-glow;
+        box-shadow: 0 0 15px $green-glow;
+        transform: rotate(-5deg);
+    }
+}
