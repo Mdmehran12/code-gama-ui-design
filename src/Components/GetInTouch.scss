@@ -17,6 +17,11 @@
         background-position: -46rem 2rem;
     }
 
+    @media (max-width: 500px) {
+        background-position:
+            -59rem 3rem;
+    }
+
     .content {
         padding: 1rem;
         max-width: 50vw;

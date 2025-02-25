@@ -1,4 +1,87 @@
 .blog-suggestion {
     margin-block: 6rem;
+    width: 100%;
+    max-width: 100vw;
+    min-height: max-content;
 
+    .blog-grid {
+        height: fit-content;
+        display: grid;
+        grid-template-areas:
+            "blog1 blog1 blog1 blog2 blog2"
+            "blog1 blog1 blog1 blog2 blog2"
+            "blog1 blog1 blog1 blog2 blog2"
+            "blog3 blog3 blog3 blog3 blog3"
+            "blog3 blog3 blog3 blog3 blog3"
+        ;
+        gap: 2rem;
+        padding: 2rem;
+
+        @media (max-width: 900px) {
+            grid-template-areas:
+                "blog1"
+                "blog2"
+                "blog3"
+            ;
+
+        }
+
+        .blog-card {
+            width: 100%;
+            height: 100%;
+            background-color: green;
+            min-height: 300px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 34px;
+            display: flex;
+
+            .blog-card-content {
+                padding: 34px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-end;
+                flex-direction: column;
+                position: relative;
+
+                &>* {
+                    z-index: 2;
+                }
+
+                &::before {
+                    content: '+';
+                    position: absolute;
+                    bottom: 136px;
+                    left: 0;
+                    width: 100%;
+                    height: 50px;
+                    // background-color: rgba(0, 0, 0, 0.5);
+                    background-color: transparent;
+                    box-shadow: 19px 131px 44px 40px rgba(7, 7, 7, 0.8);
+                    border-radius: 34px;
+                    display: block;
+                    z-index: 1;
+                }
+            }
+
+            img {
+                max-width: 100%;
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+
+        .blog-card:nth-child(1) {
+            grid-area: blog1;
+        }
+
+        .blog-card:nth-child(2) {
+            grid-area: blog2;
+        }
+
+        .blog-card:nth-child(3) {
+            grid-area: blog3;
+        }
+    }
 }
