@@ -15,6 +15,7 @@ import Navbar from './Layout/Navbar'
 import TestimonialCarousel from './Components/Testimonial'
 import ComparisonTable from './Components/ComparisonTable'
 import BlogSuggestion from './Components/BlogSuggestion'
+import GetInTouch from './Components/GetInTouch'
 function App() {
   return (
     <>
@@ -32,6 +33,7 @@ function App() {
       <TestimonialCarousel />
       <ComparisonTable />
       <BlogSuggestion />
+      <GetInTouch />
     </>
   )
 }
