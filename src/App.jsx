@@ -16,6 +16,7 @@ import TestimonialCarousel from './Components/Testimonial'
 import ComparisonTable from './Components/ComparisonTable'
 import BlogSuggestion from './Components/BlogSuggestion'
 import GetInTouch from './Components/GetInTouch'
+import Faq from './Components/Faq'
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
       <TestimonialCarousel />
       <ComparisonTable />
       <BlogSuggestion />
+      <Faq />
       <GetInTouch />
     </>
   )
